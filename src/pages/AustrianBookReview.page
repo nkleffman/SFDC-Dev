@@ -1,0 +1,5 @@
+<apex:page standardController="Book__c">
+    <apex:pageBlock title="Austrian Book Review">
+     Choose a book to view its reviews.
+    </apex:pageBlock>
+</apex:page>

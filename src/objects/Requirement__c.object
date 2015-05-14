@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Business_Rule__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Rule</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Business_Vision__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Vision</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CR_Background__c</fullName>
+        <externalId>false</externalId>
+        <label>CR Background</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Component_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Component Type</label>
+        <picklist>
+            <controllingField>SolutionType__c</controllingField>
+            <picklistValues>
+                <fullName>Record Types / Page Layouts</fullName>
+                <controllingFieldValues>Configuration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Field Level Security</fullName>
+                <controllingFieldValues>Configuration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Validation Rule</fullName>
+                <controllingFieldValues>Configuration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Workflow Rule</fullName>
+                <controllingFieldValues>Configuration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Custom link / button</fullName>
+                <controllingFieldValues>Configuration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Report</fullName>
+                <controllingFieldValues>Configuration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Apex Class</fullName>
+                <controllingFieldValues>Customization</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trigger</fullName>
+                <controllingFieldValues>Customization</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Scheduled Batch Job</fullName>
+                <controllingFieldValues>Customization</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SOAP Web Service</fullName>
+                <controllingFieldValues>Integration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bulk API Call</fullName>
+                <controllingFieldValues>Integration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>N/A</fullName>
+                <controllingFieldValues>Out-of-the-Box</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Custom Object</fullName>
+                <controllingFieldValues>Configuration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VF Page</fullName>
+                <controllingFieldValues>Customization</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VF Component</fullName>
+                <controllingFieldValues>Customization</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ParentRequirement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Parent Requirement - no grandchildren.</description>
+        <externalId>false</externalId>
+        <label>Parent Requirement</label>
+        <referenceTo>Requirement__c</referenceTo>
+        <relationshipLabel>Requirements</relationshipLabel>
+        <relationshipName>Requirements</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SolutionType__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Out-of-the-Box</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customization</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Integration</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Statement__c</fullName>
+        <description>Requirement Statement</description>
+        <externalId>false</externalId>
+        <label>Statement</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Technical_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Technical Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Parent Requirement</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Rule</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Application Requirement</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Change Request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <label>Requirement</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>ParentRequirement__c</columns>
+        <columns>Statement__c</columns>
+        <columns>Description__c</columns>
+        <columns>Type__c</columns>
+        <columns>SolutionType__c</columns>
+        <columns>Component_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Req-{0000}</displayFormat>
+        <label>Req ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Requirements</pluralLabel>
+    <recordTypes>
+        <fullName>Application_Requirement</fullName>
+        <active>true</active>
+        <label>Application Requirement</label>
+        <picklistValues>
+            <picklist>Component_Type__c</picklist>
+            <values>
+                <fullName>Apex Class</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bulk API Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom Object</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom link %2F button</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Level Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Record Types %2F Page Layouts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOAP Web Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled Batch Job</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VF Component</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VF Page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validation Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workflow Rule</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SolutionType__c</picklist>
+            <values>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out-of-the-Box</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Application Requirement</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Business_Rule</fullName>
+        <active>true</active>
+        <label>Business Rule</label>
+        <picklistValues>
+            <picklist>Component_Type__c</picklist>
+            <values>
+                <fullName>Apex Class</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bulk API Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom link %2F button</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Level Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Record Types %2F Page Layouts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOAP Web Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled Batch Job</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validation Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workflow Rule</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SolutionType__c</picklist>
+            <values>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out-of-the-Box</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Business Rule</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>ChangeRequest</fullName>
+        <active>true</active>
+        <label>Change Request</label>
+        <picklistValues>
+            <picklist>Component_Type__c</picklist>
+            <values>
+                <fullName>Apex Class</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bulk API Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom link %2F button</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Level Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Record Types %2F Page Layouts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOAP Web Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled Batch Job</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validation Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workflow Rule</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SolutionType__c</picklist>
+            <values>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out-of-the-Box</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Application Requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Request</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Parent_Requirement</fullName>
+        <active>true</active>
+        <label>Parent Requirement</label>
+        <picklistValues>
+            <picklist>Component_Type__c</picklist>
+            <values>
+                <fullName>Apex Class</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bulk API Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom link %2F button</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Level Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Record Types %2F Page Layouts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOAP Web Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled Batch Job</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validation Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workflow Rule</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SolutionType__c</picklist>
+            <values>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out-of-the-Box</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Parent Requirement</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Requirement</fullName>
+        <active>true</active>
+        <label>Requirement</label>
+        <picklistValues>
+            <picklist>Component_Type__c</picklist>
+            <values>
+                <fullName>Apex Class</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bulk API Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom link %2F button</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Field Level Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Record Types %2F Page Layouts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOAP Web Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled Batch Job</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validation Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workflow Rule</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SolutionType__c</picklist>
+            <values>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out-of-the-Box</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Application Requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Rule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parent Requirement</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>ParentRequirement__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Statement__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Type__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Statement__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SolutionType__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Component_Type__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ParentRequirement__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Statement__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>No_Grandparents</fullName>
+        <active>true</active>
+        <description>A Parent Requirement cannot have a Parent Requirement.</description>
+        <errorConditionFormula>ISPICKVAL(  Type__c , &quot;Parent Requirement&quot; ) &amp;&amp; ( NOT (ISBLANK( ParentRequirement__c) ) )</errorConditionFormula>
+        <errorMessage>A Parent Requirement cannot have a Parent Requirement</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_Orphans</fullName>
+        <active>true</active>
+        <description>Requirements that are not &quot;Parent Requirement&quot; must have a Parent Requirement</description>
+        <errorConditionFormula>ISBLANK(  ParentRequirement__c  ) &amp;&amp;  NOT(  ISPICKVAL( Type__c , &quot;Parent Requirement&quot;)  )</errorConditionFormula>
+        <errorMessage>A Business Rule, Application Requirement, or Change Request must relate to a Parent Requirement.</errorMessage>
+    </validationRules>
+</CustomObject>

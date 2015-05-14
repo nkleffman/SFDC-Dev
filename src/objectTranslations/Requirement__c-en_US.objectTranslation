@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Requirement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Requirements</value>
+    </caseValues>
+    <fields>
+        <label><!-- Business Rule --></label>
+        <name>Business_Rule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Vision --></label>
+        <name>Business_Vision__c</name>
+    </fields>
+    <fields>
+        <label><!-- CR Background --></label>
+        <name>CR_Background__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Type --></label>
+        <name>Component_Type__c</name>
+        <picklistValues>
+            <masterLabel>Apex Class</masterLabel>
+            <translation><!-- Apex Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk API Call</masterLabel>
+            <translation><!-- Bulk API Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Object</masterLabel>
+            <translation><!-- Custom Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom link / button</masterLabel>
+            <translation><!-- Custom link / button --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Level Security</masterLabel>
+            <translation><!-- Field Level Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Types / Page Layouts</masterLabel>
+            <translation><!-- Record Types / Page Layouts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report</masterLabel>
+            <translation><!-- Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOAP Web Service</masterLabel>
+            <translation><!-- SOAP Web Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled Batch Job</masterLabel>
+            <translation><!-- Scheduled Batch Job --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trigger</masterLabel>
+            <translation><!-- Trigger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VF Component</masterLabel>
+            <translation><!-- VF Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VF Page</masterLabel>
+            <translation><!-- VF Page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation Rule</masterLabel>
+            <translation><!-- Validation Rule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflow Rule</masterLabel>
+            <translation><!-- Workflow Rule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Requirement --></label>
+        <name>ParentRequirement__c</name>
+        <relationshipLabel><!-- Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Solution Type --></label>
+        <name>SolutionType__c</name>
+        <picklistValues>
+            <masterLabel>Configuration</masterLabel>
+            <translation><!-- Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customization</masterLabel>
+            <translation><!-- Customization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out-of-the-Box</masterLabel>
+            <translation><!-- Out-of-the-Box --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Statement --></label>
+        <name>Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical Description --></label>
+        <name>Technical_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Application Requirement</masterLabel>
+            <translation><!-- Application Requirement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Rule</masterLabel>
+            <translation><!-- Business Rule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Request</masterLabel>
+            <translation><!-- Change Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent Requirement</masterLabel>
+            <translation><!-- Parent Requirement --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Application Requirement</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Detail Information --></label>
+            <section>Detail Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Business Rule</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Change Request</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Parent Requirement</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Requirement Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Application Requirement --></label>
+        <name>Application_Requirement</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Business Rule --></label>
+        <name>Business_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Change Request --></label>
+        <name>ChangeRequest</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Parent Requirement --></label>
+        <name>Parent_Requirement</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Requirement --></label>
+        <name>Requirement</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- A Parent Requirement cannot have a Parent Requirement --></errorMessage>
+        <name>No_Grandparents</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Business Rule, Application Requirement, or Change Request must relate to a Parent Requirement. --></errorMessage>
+        <name>No_Orphans</name>
+    </validationRules>
+</CustomObjectTranslation>

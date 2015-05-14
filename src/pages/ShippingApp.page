@@ -1,0 +1,13 @@
+<apex:page standardController="Case" extensions="VFC_ShippingApp">
+<apex:variable var="c" value="{!Case}" />
+    <apex:form id="ShippingApp"  >
+        <apex:pageBlock mode="edit" >
+            <apex:pageMessages />
+            <apex:pageBlockSection columns="3" >
+                <apex:inputField value="{!c.Last_Shipper__c}" />
+                <apex:inputField value="{!c.Last_Tracking_Number__c}" />
+                 <apex:commandButton value="Track Shipment" action="{!trackShipment}" />
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

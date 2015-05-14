@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Review</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reviews</value>
+    </caseValues>
+    <fields>
+        <label><!-- Book --></label>
+        <name>Book__c</name>
+        <relationshipLabel><!-- Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hidden Count --></label>
+        <name>Hidden_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Score --></label>
+        <name>Review_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Title --></label>
+        <name>Review_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review --></label>
+        <name>Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reviewer --></label>
+        <name>User_Reviewer__c</name>
+        <relationshipLabel><!-- Reviews --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Review Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The Review Score must be an integer between 1 and 10 --></errorMessage>
+        <name>Review_Score_between_1_and_10</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot enter a review for another person --></errorMessage>
+        <name>Reviewer_must_be_logged_in_User</name>
+    </validationRules>
+</CustomObjectTranslation>
