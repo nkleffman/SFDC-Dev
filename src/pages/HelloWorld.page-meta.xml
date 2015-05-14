@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>33.0</apiVersion>
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Hello World!</description>
+    <label>Hello World</label>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>2</minorNumber>
+        <namespace>textus</namespace>
+    </packageVersions>
+</ApexPage>
