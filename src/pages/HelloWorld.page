@@ -3,4 +3,5 @@
   What a lovely day!
   <h1>Proof of Deployment!</h1>
   <h1>Proof of Jenkins!</h1>
+  <h1>Proof of Pull Request Triggered Validation!</h1>
 </apex:page>
