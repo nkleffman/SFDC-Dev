@@ -1,4 +1,4 @@
 <apex:page >
   <h1>Hello World</h1><br/>
   Hello {!$User.FirstName} !
-</apex:page>
+</apex:page>Oops!
