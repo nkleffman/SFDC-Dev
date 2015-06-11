@@ -5,6 +5,10 @@
         <members>HelloWorld</members>
         <name>ApexPage</name>
     </types>
+    <types>
+        <members>Hello_World</members>
+        <name>CustomTab</name>
+    </types>
     <!--Req0001: Hello World-->
     <version>32.0</version>
 </Package>
