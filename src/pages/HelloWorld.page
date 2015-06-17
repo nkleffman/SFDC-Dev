@@ -2,4 +2,5 @@
   <h1>Hello World</h1><br/>
   Hello {!$User.FirstName} !
   This is a test.
+  2nd Test.
 </apex:page>
