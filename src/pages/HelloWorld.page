@@ -1,5 +1,4 @@
 <apex:page >
   <h1>Hello World</h1><br/>
   Hello {!$User.FirstName} !
-  Fixed Error
 </apex:page>
