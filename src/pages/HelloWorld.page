@@ -1,4 +1,5 @@
 <apex:page >
   <h1>Hello World</h1><br/>
-  Hello {!$User.FirstName} !
+  Hello {!$User.FirstName} !<br/>
+  Hello Service Cloud meeting
 </apex:page>
