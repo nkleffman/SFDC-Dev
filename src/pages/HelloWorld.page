@@ -2,4 +2,4 @@
   <h1>Hello World</h1><br/>
   Hello {!$User.FirstName} !<br/>
   Hello Team IHC Hotels Group
-</apex:page>Error
+</apex:page>
