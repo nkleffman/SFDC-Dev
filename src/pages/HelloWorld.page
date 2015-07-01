@@ -1,5 +1,5 @@
 <apex:page >
   <h1>Hello World</h1><br/>
   Hello {!$User.FirstName} !<br/>
-  Hello IDC Dev Ops SFDC Leadership Team!
-</apex:page>
+  Hello Team
+</apex:page>Error
