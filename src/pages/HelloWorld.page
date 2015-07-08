@@ -1,7 +1,7 @@
 <apex:page >
   <h1>Hello World</h1><br/>
   Hello {!$User.FirstName} !<br/>
-  This is method 1
-  Hello Team
-  This is method 2
+  This is method 1<br/>
+  <h1>Hello Team</h1><br/>
+  This is method 2<br/>
 </apex:page>
