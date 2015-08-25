@@ -87,6 +87,14 @@
         <type>Summary</type>
     </fields>
     <fields>
+        <fullName>Test_Dev2__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Dev2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Publication_Date__c</fullName>
         <externalId>false</externalId>
         <label>Publication Date</label>
