@@ -103,6 +103,14 @@
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>Deploy_test_Jenkins__c</fullName>
+        <externalId>false</externalId>
+        <label>Deploy test</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Total_Score__c</fullName>
         <externalId>false</externalId>
         <label>Total Score</label>
