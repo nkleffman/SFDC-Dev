@@ -122,7 +122,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>TestDescription__c</field>
+                <field>Test_Description__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
