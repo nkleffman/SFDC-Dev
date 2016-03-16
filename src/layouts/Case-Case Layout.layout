@@ -122,6 +122,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Test_Description__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>SLAViolation__c</field>
             </layoutItems>
         </layoutColumns>
