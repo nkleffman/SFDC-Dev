@@ -121,6 +121,12 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Test_Description__c</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
         <fullName>EngineeringReqNumber__c</fullName>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
