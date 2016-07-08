@@ -77,13 +77,11 @@
     <enableHistory>false</enableHistory>
     <fields>
         <fullName>ATT_demo__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>ATT-demo</label>
-        <length>255</length>
-        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>AccountNumber</fullName>
@@ -625,6 +623,12 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ATTDemoFieldmustbeTrue</fullName>
+        <active>true</active>
+        <errorConditionFormula>ATT_demo__c = &quot;TRUE&quot;</errorConditionFormula>
+        <errorMessage>ATT cannot be true</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
