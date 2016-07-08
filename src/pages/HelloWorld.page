@@ -2,4 +2,5 @@
   <h1>Hello World</h1><br/>
   <br/>
   Welcome {!$User.FirstName}!<br/>
+  Hello AT&T wifi!<br/>
 </apex:page>
