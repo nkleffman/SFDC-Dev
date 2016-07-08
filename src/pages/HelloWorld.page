@@ -3,4 +3,5 @@
   <br/>
   Welcome {!$User.FirstName}!<br/>
   Hello ATT wifi!<br/>
+  I am a new developer!
 </apex:page>

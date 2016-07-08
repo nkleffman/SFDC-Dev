@@ -615,6 +615,12 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ATTDemoFieldmustbeTrue</fullName>
+        <active>true</active>
+        <errorConditionFormula>ATT_demo__c = &quot;TRUE&quot;</errorConditionFormula>
+        <errorMessage>ATT cannot be true</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
