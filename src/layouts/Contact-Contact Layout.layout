@@ -11,6 +11,7 @@
                 <behavior>Edit</behavior>
                 <field>OwnerId</field>
             </layoutItems>
+            <!-- Fixed! -->
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
