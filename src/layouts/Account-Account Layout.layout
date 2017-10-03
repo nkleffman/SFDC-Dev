@@ -77,6 +77,10 @@
                 <behavior>Edit</behavior>
                 <field>ATT_demo__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>High_Value_Customer__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
