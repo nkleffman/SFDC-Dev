@@ -39,10 +39,6 @@
                 <behavior>Edit</behavior>
                 <field>AnnualRevenue</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CauseValidationError</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
