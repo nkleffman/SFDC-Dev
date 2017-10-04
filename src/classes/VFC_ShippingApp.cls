@@ -5,8 +5,6 @@ public with sharing class VFC_ShippingApp
     touch 2 
     touch 3*/
     
-}
-    
     private final Case c;
     
     public VFC_ShippingApp(ApexPages.StandardController stdController)
